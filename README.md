@@ -1,7 +1,7 @@
 Name Who's Home
 Description: Node.js app that checks a Unifi Controller for specific MAC addresses, or device names to tell who is home
 
-Usage: node ./bin/www
+Usage: node ./bin/www | npm start
 
 ## Install
 
@@ -32,6 +32,14 @@ Settings are configured in settings.json
 2) Edit service.js to specify the path to www file
 3) Run node service.js from an elevated command prompt
 4) Configure firewall rule to allow port noted in settings.json
+
+## Ubuntu Service Install
+
+1) Install PM2: sudo npm install -g pm2 (if not already installed)
+2) Navigate to install folder (e.g. cd\usr\src\whoshome) 
+3) Run pm2 start bin/www
+4) Run pm2 startup systemd (if not already configured to autostart)
+5) Follow directions
 
 ## Usage
 
