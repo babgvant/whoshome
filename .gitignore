@@ -48,3 +48,4 @@ Temporary Items
 
 # Manual ignores
 node_modules
+settings.json
