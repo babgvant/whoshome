@@ -11,11 +11,11 @@
     "url": "http://babgvant.com/"
   },
   "dependencies": {
-    "body-parser": "~1.18.2",
-    "cookie-parser": "~1.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
     "debug": "~2.6.9",
     "express": "~4.15.5",
-    "morgan": "~1.9.0",
+    "morgan": "^1.9.1",
     "node-unifi": "^1.2.2",
     "pug": "2.0.0-beta11",
     "serve-favicon": "~2.4.5"
